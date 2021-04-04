@@ -19,10 +19,12 @@ public class TestChidPage {
 		 */
 		//call static members inside static methods
 		int vis=You;
+		int i;
 	}
 	private  List<Map<String, Integer>> tableMapMethod (){
 		//able to call static method inside non static method
 		statMethod();
 		 return null;
+		
 	}
 }
