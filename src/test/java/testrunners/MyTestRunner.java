@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"},
-		tags= "@Smoke"
+		tags= "@Smoke and not @Regression"
 		)
 
 public class MyTestRunner {

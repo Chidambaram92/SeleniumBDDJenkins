@@ -1,5 +1,7 @@
 package parallel;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -24,6 +26,10 @@ public class TestChidPage {
 	private  List<Map<String, Integer>> tableMapMethod (){
 		//able to call static method inside non static method
 		statMethod();
+		List<String>nameList=Collections.synchronizedList(new ArrayList<String>());
+		nameList.add("Chidambaram");
+		nameList.add("Test");
+		nameList.add("Value");
 		 return null;
 		
 	}
