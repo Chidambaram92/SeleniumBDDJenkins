@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CategoryPage {
+public class CategoryPage  {
 	private WebDriver driver;
 
 	private By categorySections = By.xpath("//div[@id='block_top_menu']/ul/li/a");
